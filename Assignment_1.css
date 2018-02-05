@@ -1,11 +1,13 @@
 
 
+
 body {
-	background-image: url(llama.jpeg);
+	background-image: url(photos/llama.jpeg);
 	background-image: center;
 	background-size: contain;
-	background-color: #aaa;
+	background-color: #6f4e37;
 	font: 100% Arial, Helvetica, sans-serif;
+
 }
 
 .leftText {
@@ -21,9 +23,9 @@ body {
 	background-color: rgba(255,127,80, 0.75);
 	border-radius: 25px;
 	margin: auto;
-
-
+	padding-bottom: 4em;
 }
+
 
 h1 {
 	font-size: 3em;

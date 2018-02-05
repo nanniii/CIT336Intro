@@ -1,12 +1,32 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
 	<title>Will's Introductory Page</title>
 	<link rel="stylesheet" type="text/css" href="Assignment_1.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+<style>
+    .galleria{ max-width: 50em; height: 40em; background: #000; margin: 0 auto; }
+</style>
 </head>
 <body>
-<h1>Welcome to my Page!</h1>
-<div class="leftText">
+<h1 id="Title">Welcome to my Page!</h1>
+<div class="galleria" id= "galleria" style="display: none; ">
+    <img src="photos\hobbitHole.jpg">
+    <img src="photos\vilcabambaCross.jpg">
+    <img src="photos\cotacachi.jpg">
+    <img src="photos\cajasPanorama.jpg">
+    <img src="photos\ceviche.jpg">
+    <img src="photos\waterfall.jpg">
+    <img src="photos\cajasPanFat.jpg">
+</div>
+<div id="bigDivToClear">
+    <div class="leftText">
+	<!-- FUNCTION 1: thisbutton makes the size of the paragraph text larger and dispays the time above it  -->
+	<div id="buttonDiv">
+	<button id="sizeDate">Click Me to resize the font and display the Date!</button>
+	</div>
 	<h2>Who am I?</h2>
 	<p>
 	My name is Will Bender and I am a Junior in Computer Science here at Pace. My expected date of graduation is May 2019 and I'm from Trumbull, CT. I am taking this class to kickstart my want to create a interactive more 'fun' website as I purchased (then released) a domain one year ago because I never did anything with it (wanted to have my own email domain). I am eager to take this class while using Lynda to further excel!  </p>
@@ -29,6 +49,11 @@
 		I was just in Ecuador for a month and a half! That picture was taken at Quilatoa Lake with a momma and baby Alpaca! The trek down was so worth it to meet them in indigenous outfit. Last year I travelled to Chile, where I backpacked for 8 days in the wilderness of Patagonia to soak in nature's beauty and glory. I live to travel and hopefully I can make that as part of my job.
 	</p>
 </div>
+    </div>
+	<script src="js\thejs.js"></script>
+	<script src="galleria/galleria-1.5.7.min.js"></script>
+
+
 
 </body>
 </html>
